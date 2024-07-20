@@ -482,7 +482,7 @@ color:rgb(83, 123, 144) ;
 
 /* =================================== MOBILE VERSION  ==================================================== */
 
-@media(max-width:600px){
+@media(max-width:380px){
 
 
   body{
@@ -584,7 +584,7 @@ color: #0a0d10;
 }
 
 #info button{
-  width: 8rem;
+  width: 5rem;
   background-color: rgb(0, 140, 255);
   border: none;
   color: #fff;
@@ -597,6 +597,8 @@ color: #0a0d10;
   background-color: transparent;
   color: black;
   border: 2px solid gray;
+  width: 80%;
+  height: 10%;
   
 }
 #info #buttonI:hover{
@@ -604,14 +606,16 @@ color: #0a0d10;
 
 }
 #info #buttonII{
-  margin-top: 6.1rem;
+  margin-top: 200px;
+  width: 100%;
 }
 
 #info #but1{
-  margin-top: 5.4rem;
+  margin-top: 216px;
 }
 #info #but3{
-  margin-top: 2.7rem;
+  margin-top: 86px;
+
 }
 
 /* #sec-II h1{
@@ -731,6 +735,7 @@ button:hover #SPAN{
 
 footer{
   margin-top:10rem ;
+  margin: auto;
 }
 
 #foot-pan1 h4{
@@ -781,8 +786,895 @@ ul h6:hover{
 #Logo{
   background-image: url(./image/images.png);
         background-size: cover;
-        height: 58px;
-        width: 39%;
+        height: 60px;
+        width: 75%;
+        border: 1px solid black;
+    }
+}
+
+#pages{
+  font-size: 0.7rem;
+  text-align: center;
+  padding-top:25px ;
+}
+
+#copyright{
+  padding-top: 5px;
+  font-size: 0.7rem;
+  text-align: center;
+}
+#copyright h5{
+  color: black;
+  padding-bottom:5rem ;
+}
+
+#icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 6rem;
+  gap: 2rem;
+  cursor: pointer;
+
+}
+
+#icon .fa-facebook:hover{
+ color: rgb(0, 136, 255);
+}
+
+#icon .fa-instagram:hover{
+  color: rgb(232, 19, 68);
+}
+
+#icon .fa-twitter:hover{
+  color:rgb(0, 179, 255) ;
+}
+#icon .fa-envelope:hover{
+color: rgb(242, 96, 96);
+}
+#icon .fa-solid.fa-phone:hover{
+color:rgb(83, 123, 144) ;
+}
+
+#vi-info{
+
+  margin-left: -1rem;
+
+
+}
+
+#register{
+  margin-bottom: 5rem;
+  padding: -1rem;
+}
+
+#register h1{
+  font-size: 2rem;
+  font-weight:200;
+  
+  color: #0a0d10;
+}
+#register input{
+  margin: 9px;
+  padding: 17px;
+  font-size: 16px;
+  width: 362px;
+  border-radius: 5px;
+  
+  background-color:rgb(222, 218, 218);
+  outline: none;
+}
+
+#register input:hover{
+  border: 2px solid rgb(32, 184, 244);
+}
+#register button{
+  font-size: 17px;
+  padding: 16px;
+  color: black;
+  border-radius: 5px;
+  cursor: pointer;
+ 
+ 
+}
+#register button:hover{
+  border: 2px solid rgb(32, 184, 244);
+}
+
+#register input::placeholder{
+  color: rgb(190, 188, 188);
+}
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0;
+    margin: 0;
+    background-image: url(./image/mercedes-benz-s-class-wv223-stage-3840x1707-09-2022.avif);
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+#head{
+    background-color: white;
+    /* background-color: white; */
+    border: 2px solid black;
+}
+
+#mob-btn{
+  display: none;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2px;
+}
+
+#left img{
+        width: 10rem;
+        margin-left: -1rem;
+        margin-top: 1rem;
+}
+
+#right ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+
+}
+
+
+
+
+
+#count{
+  display: flex;
+ list-style-type: none;
+ 
+}
+a{
+  text-decoration: none;
+  color: black;
+  padding: 20px;
+  display: block;
+}
+
+a:hover{
+  color: brown;
+  
+}
+
+nav{
+  background-color: white;
+
+}
+
+
+
+#menu{
+  list-style-type: none;
+  padding: 1rem;
+  background-color: white;
+  position: absolute;
+  display: none;
+
+ 
+}
+
+#drop:hover #menu{
+  display: block;
+
+ }
+
+ #sec-I{
+  margin-left:3rem ;
+  margin-top: 11.6rem;
+
+ }
+ #sec-I h1{
+  color: white;
+  font-size: 2.6rem;
+  font-weight: 400;
+ }
+
+ #sec-I button{
+  width: 11rem;
+  height: 3rem;
+  text-align: center;
+  position: relative;
+  margin: 20px 10px;
+  margin-left: 5rem;
+  font-weight: bold;
+  border: 2px solid white;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 5px;
+  
+  
+ }
+ #sec-I button:hover{
+  text-transform: uppercase;
+ }
+ span{
+  background: rgba(130, 62, 62, 0.934);
+  height: 100%;
+  width: 0;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: 0.5s;
+ }
+
+ button:hover span{
+  width: 100%;
+ }
+
+ main{
+   display: flex;
+   justify-content: center;
+   margin-top: 20rem;
+ }
+
+ #cont{
+ 
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  
+ }
+
+ #cont > div{
+  width: 40%;
+  background-color: white;
+  overflow: hidden;
+ 
+ }
+
+ #cont >div >img{
+  width: 100%;
+  height: 300px;
+
+ }
+ #cont > div > h3{
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  letter-spacing: 8px;
+  margin-top: 1rem;
+}
+#cont > div > button{
+  width: 100%;
+  height: 50px;
+  background-color:rgb(0, 191, 255);
+  border: none;
+  color: white;
+  font-size: 20px;
+ 
+  
+}
+
+#cont > div > img:hover{
+  
+  transform: scale(1.2);
+  transition: 0.8s;
+}
+
+#info h3{
+font-weight: 300;
+font-size: 1.5rem;
+
+}
+
+#info p{
+  font-weight: 100;
+}
+#info button{
+  width: 14rem;
+  height: 30px;
+  background-color: rgb(0, 140, 255);
+  border: none;
+  color: #fff;
+
+}
+#info button:hover{
+  background-color: rgba(0, 140, 255, 0.753);
+}
+#info #buttonI{
+  background-color: transparent;
+  color: black;
+  border: 2px solid gray;
+  
+}
+#info #buttonI:hover{
+  background-color: whitesmoke;
+}
+#info #buttonII{
+  margin-top: 4.1rem;
+}
+
+#info #but1{
+  margin-top: 2.7rem;
+}
+#info #but3{
+  margin-top: 2.7rem;
+}
+
+/* #sec-II h1{
+  margin-top: 1rem;
+  background-image: url(./image/img\ 1.avif);
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+} */
+
+#onlineImg{
+  width: 60%;
+  height: 40px;
+  margin-left: 5rem;
+
+}
+
+#carDetails{
+  margin-right: 10rem;
+  margin-top: 4.7rem;
+}
+
+#carDetails h1{
+  font-weight: 350;
+  font-size: 2rem;
+  color: rgb(23, 21, 21);
+
+}
+#carDetails p{
+  font-weight: 350;
+  font-size: 1rem;
+  
+}
+
+#carDetails button{
+  width: 14rem;
+  height: 40px;
+  position: relative;
+  margin-left: 1rem;
+  font-weight: bold;
+  border: 2px solid rgb(13, 136, 237);
+  background: transparent;
+  color: #050404;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+ #span{
+  background: rgba(5, 156, 250, 0.849);
+  height: 100%;
+  width: 0;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: 0.8s;
+}
+button:hover #span{
+  width: 100%;
+}
+
+
+
+#vi{
+  margin-right: 15rem;
+}
+
+#vi-info button{
+  width: 14rem;
+  height: 40px;
+  position: relative;
+  margin-left: 1rem;
+  font-weight: bold;
+  border: 2px solid rgb(13, 136, 237);
+  background: transparent;
+  color: #050404;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+#vi-info h2{
+  font-weight: 350;
+  font-size: 2rem;
+  color: rgb(23, 21, 21);
+
+}
+#vi-info p{
+  font-weight: 350;
+  font-size: 1rem;
+  
+}
+
+ #SPAN{
+  background: rgba(5, 156, 250, 0.849);
+  height: 100%;
+  width: 0;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: 0.8s;
+}
+button:hover #SPAN{
+  width: 100%;
+}
+
+
+
+
+/* Footer */
+
+footer{
+  margin-top:10rem ;
+}
+
+#foot-pan1 h4{
+  background-color: #37475a;
+  color: white;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.85rem;
+}
+
+#foot-pan2{
+  background-color: #0a0d10;
+  color: white;
+  height: 300px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+ul{
+  margin-top: 20px;
+}
+
+ul h6{
+  
+  display: block;
+  font-size: 0.85rem;
+  margin-top: 4px;
+  color: #dddddd;
+  cursor: pointer;
+  font-weight: 350;
+}
+ul h6:hover{
+  color: white;
+}
+
+#foot-pan3{
+  background-color:white;
+  color: white;
+  border-top:0.5px solid white ;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#Logo{
+  background-image: url(./image/images.png);
+  background-size: cover;
+  height: 60px;
+  width: 16%;
+  border: 1px solid black;
+}
+
+#pages{
+  font-size: 0.7rem;
+  text-align: center;
+  padding-top:25px ;
+}
+
+#copyright{
+  padding-top: 5px;
+  font-size: 0.7rem;
+  text-align: center;
+}
+#copyright h5{
+  color: black;
+  padding-bottom:5rem ;
+}
+
+#icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 6rem;
+  gap: 2rem;
+  cursor: pointer;
+
+}
+
+#icon .fa-facebook:hover{
+ color: rgb(0, 136, 255);
+}
+
+#icon .fa-instagram:hover{
+  color: rgb(232, 19, 68);
+}
+
+#icon .fa-twitter:hover{
+  color:rgb(0, 179, 255) ;
+}
+#icon .fa-envelope:hover{
+color: rgb(242, 96, 96);
+}
+#icon .fa-solid.fa-phone:hover{
+color:rgb(83, 123, 144) ;
+}
+
+#vi-info{
+
+  margin-left: -1rem;
+
+
+}
+
+#register{
+  margin-bottom: 5rem;
+  padding: -1rem;
+}
+
+#register h1{
+  font-size: 2rem;
+  font-weight:200;
+  
+  color: #0a0d10;
+}
+#register input{
+  margin: 9px;
+  padding: 17px;
+  font-size: 16px;
+  width: 362px;
+  border-radius: 5px;
+  
+  background-color:rgb(222, 218, 218);
+  outline: none;
+}
+
+#register input:hover{
+  border: 2px solid rgb(32, 184, 244);
+}
+#register button{
+  font-size: 17px;
+  padding: 16px;
+  color: black;
+  border-radius: 5px;
+  cursor: pointer;
+ 
+ 
+}
+#register button:hover{
+  border: 2px solid rgb(32, 184, 244);
+}
+
+#register input::placeholder{
+  color: rgb(190, 188, 188);
+}
+
+
+
+/* =================================== MOBILE VERSION  ==================================================== */
+
+@media(max-width:380px){
+
+
+  body{
+    background-size: 160%;
+    background-position-x:center;
+  }
+
+  
+  nav{
+    display: none;
+  }
+
+  #mob-btn{
+    display: inline-block;
+    background-color: rgb(218, 215, 215);
+    color: rgb(16, 11, 11);
+    padding: 0.5rem 1rem ;
+    border-radius: 5px;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+#sec-I{
+width: 80%;
+margin: auto;
+margin-top: 0rem;
+}
+#sec-I h1{
+  font-size: 1rem;
+}
+
+#sec-I button{
+  margin:auto;
+  width: 30%;
+  border-radius: 5px;
+}
+
+main{
+  display: flex;
+  justify-content: center;
+ padding-top: 5rem;
+ margin-left: 1rem;
+}
+
+#cont{
+ 
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  
+ }
+
+ #cont > div{
+  width: 40%;
+  background-color: white;
+  overflow: hidden;
+ 
+ }
+
+ #cont >div >img{
+  width: 100%;
+  height: 110px;
+
+ }
+ #cont > div > h3{
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  letter-spacing: 8px;
+  margin-top: 1rem;
+}
+#cont > div > button{
+  width: 30%;
+  height: 50px;
+  background-color:rgb(0, 191, 255);
+  border: none;
+  color: white;
+  font-size: 20px;
+ 
+  
+}
+
+#cont > div > img:hover{
+  
+  transform: scale(1.2);
+  transition: 0.8s;
+}
+
+#info h3{
+font-weight: 500;
+font-size: 1rem;
+color: #0a0d10;
+
+}
+
+#info p{
+  font-weight: 100;
+}
+
+#info button{
+  width: 5rem;
+  background-color: rgb(0, 140, 255);
+  border: none;
+  color: #fff;
+
+}
+#info button:hover{
+  background-color: rgba(0, 140, 255, 0.753);
+}
+#info #buttonI{
+  background-color: transparent;
+  color: black;
+  border: 2px solid gray;
+  width: 80%;
+  height: 10%;
+  
+}
+#info #buttonI:hover{
+  background-color: whitesmoke;
+
+}
+#info #buttonII{
+  margin-top: 200px;
+  width: 100%;
+}
+
+#info #but1{
+  margin-top: 216px;
+}
+#info #but3{
+  margin-top: 86px;
+
+}
+
+/* #sec-II h1{
+  margin-top: 1rem;
+  background-image: url(./image/img\ 1.avif);
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+} */
+
+
+#onlineImg{
+  width: 10%;
+  height: 40px;
+  margin-left: 4rem;
+  margin-bottom:45rem ;
+
+}
+
+#carDetails{
+  margin-right: 7rem;
+  margin-top: 25.7rem;
+}
+
+#carDetails h1{
+  font-weight: 350;
+  font-size: 2rem;
+  color: rgb(23, 21, 21);
+
+}
+#carDetails p{
+  font-weight: 350;
+  font-size: 1rem;
+  
+}
+
+#carDetails button{
+  width: 14rem;
+  height: 40px;
+  position: relative;
+  margin-left: 1rem;
+  font-weight: bold;
+  border: 2px solid rgb(13, 136, 237);
+  background: transparent;
+  color: #050404;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+ #span{
+  background: rgba(5, 156, 250, 0.849);
+  height: 100%;
+  width: 0;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: 0.8s;
+}
+button:hover #span{
+  width: 100%;
+}
+
+
+#vi{
+  width: 113%;
+        height: 323px;
+        margin-left: 23.5rem;
+       margin-bottom: 30rem;
+}
+
+#vi-info{
+  margin-right: 39rem;
+  margin-top: 21.7rem;
+}
+
+#vi-info button{
+  width: 100%;
+  height: 40px;
+  position: relative;
+  margin-left: -1rem;
+  font-weight: bold;
+  border: 2px solid rgb(13, 136, 237);
+  background: transparent;
+  color: #050404;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+#vi-info h2{
+  text-align: center;
+  font-weight: 100;
+  font-size: 3rem;
+  color: rgb(23, 21, 21);
+
+}
+#vi-info p{
+  font-weight: 350;
+  font-size: 1rem;
+  
+}
+
+ #SPAN{
+  background: rgba(5, 156, 250, 0.849);
+  height: 100%;
+  width: 0;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: 0.8s;
+}
+button:hover #SPAN{
+  width: 100%;
+}
+
+footer{
+  margin-top:10rem ;
+  margin: auto;
+}
+
+#foot-pan1 h4{
+  background-color: #37475a;
+  color: white;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.85rem;
+}
+
+#foot-pan2{
+  background-color: #0a0d10;
+  color: white;
+  height: 300px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+ul{
+  margin-top: 20px;
+}
+
+ul h6{
+  
+  display: block;
+  font-size: 0.85rem;
+  margin-top: 4px;
+  color: #dddddd;
+  cursor: pointer;
+  font-weight: 350;
+}
+ul h6:hover{
+  color: white;
+}
+
+#foot-pan3{
+  background-color:white;
+  color: white;
+  border-top:0.5px solid white ;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#Logo{
+  background-image: url(./image/images.png);
+        background-size: cover;
+        height: 60px;
+        width: 75%;
         border: 1px solid black;
     }
 }
